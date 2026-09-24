@@ -1,0 +1,627 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ShopHub - Home</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-50 text-gray-800">
+  <!-- Header -->
+  <header class="bg-white shadow sticky top-0 z-50">
+    <div class="container mx-auto px-4 py-4 flex justify-between items-center">
+      <!-- <a href="index.html" class="text-4xl font-bold text-indigo-600">SuperShop</a> -->
+    </div>
+     <section class="bg-white shadow-sm sticky top-0 z-50">
+    <div class="container mx-auto px-4 py-3 flex items-center justify-between">
+      <!-- Logo -->
+      <div class="flex items-center gap-2">
+        <a href="index.html" class="text-4xl font-bold text-indigo-600">SuperShop</a>
+      </div>
+
+      <!-- Search -->
+      <div class="flex-1 mx-6 hidden md:flex">
+        <div class="flex w-full">
+          <input type="text" placeholder="Search products, brands and categories" 
+            class="w-full px-4 py-2 border border-gray-300 rounded-l-lg focus:outline-none focus:border-orange"/>
+          <button class="bg-orange text-white px-6 rounded-r-lg font-semibold bg-orange-600">Search</button>
+        </div>
+      </div>
+
+      <!-- Right Icons -->
+      <div class="flex items-center gap-6 text-sm">
+        <a href=""><button class="flex items-center gap-1 hover:text-jumia-orange">👤 Account</button></a>
+        <a href=""><button class="flex items-center gap-1 hover:text-jumia-orange">❓ Help</button></a>
+        <a href=""><button class="flex items-center gap-1 hover:text-jumia-orange">🛒 Cart</button></a>
+      </div>
+    </div>
+     <!-- Categories Nav -->
+    <nav class="bg-white border-t text-sm text-gray-700 overflow-x-auto">
+      <div class="container mx-auto px-4 flex gap-6 py-2 whitespace-nowrap">
+        <a href="official-stores.html" class="flex items-center gap-1 hover:text-jumia-orange">🏬 Official Stores</a>
+        <a href="Electronics.html" class="flex items-center gap-1 hover:text-jumia-orange">📺 Electronics</a>
+        <a href="fashion.html" class="flex items-center gap-1 hover:text-jumia-orange">👗 Fashion</a> 
+        <a href="#" class="flex items-center gap-1 hover:text-jumia-orange">📱 Phones & Tablets</a>
+        <a href="#" class="flex items-center gap-1 hover:text-jumia-orange">💄 Health & Beauty</a>
+        <a href="Appliances.html" class="flex items-center gap-1 hover:text-jumia-orange">🧰 Appliances</a>
+        <a href="#" class="flex items-center gap-1 hover:text-jumia-orange">🏠 Home & Office</a>
+        <a href="#" class="flex items-center gap-1 hover:text-jumia-orange">🛒 Supermarket</a>
+        <a href="#" class="flex items-center gap-1 hover:text-jumia-orange">💻 Laptops</a>
+        <a href="#" class="flex items-center gap-1 hover:text-jumia-orange">🧴 Perfumes</a>
+        <a href="#" class="flex items-center gap-1 hover:text-jumia-orange">👟 Shoes</a>
+
+      </div>
+    </nav>
+     </section>
+
+
+  </header>
+
+  <!-- Hero -->
+  <section class="bg-indigo-600 text-white">
+    <div class="container mx-auto px-4 py-20 text-center">
+      <h1 class="text-4xl md:text-5xl font-bold mb-4">Everything You Need, One Place</h1>
+      <p class="mb-6 text-lg">Cars, Phones, Perfumes, Bags, Laptops & Shoes</p>
+      <a href="category.html" class="bg-white text-indigo-600 px-6 py-3 rounded-lg font-semibold hover:bg-gray-100">Shop Now</a>
+    </div>
+  </section>
+
+  <!-- Categories -->
+  <section class="container mx-auto px-4 py-12">
+    <h2 class="text-2xl font-bold mb-6">Shop by Category</h2>
+    <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-4">
+      <a href="#" class="bg-white p-4 rounded-lg shadow hover:shadow-md text-center">Cars</a>
+      <a href="#" class="bg-white p-4 rounded-lg shadow hover:shadow-md text-center">Phones</a>
+      <a href="#" class="bg-white p-4 rounded-lg shadow hover:shadow-md text-center">Perfumes</a>
+      <a href="#" class="bg-white p-4 rounded-lg shadow hover:shadow-md text-center">Bags</a>
+      <a href="#" class="bg-white p-4 rounded-lg shadow hover:shadow-md text-center">Laptops</a>
+      <a href="#" class="bg-white p-4 rounded-lg shadow hover:shadow-md text-center">Shoes</a>
+    </div>
+  </section>
+
+  <div class="max-w-[1500px] mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 lg:gap-5">
+
+  <!-- Card 1 - Bag -->
+  <div class="bg-[#c2fb91] rounded-sm p-6 flex flex-col justify-between min-h-[380px] lg:min-h-[420px] relative overflow-hidden group cursor-pointer hover:shadow-lg transition">
+    <div>
+      <h2 class="text-[28px] leading-[32px] font-extrabold text-black">Find your<br>perfect bag</h2>
+      <p class="mt-2 text-[15px] text-black">Shop Your Dreams</p>
+      <p class="font-bold text-[16px] mt-1">Top Qualities</p>
+    </div>
+    <div class="mt-6 flex justify-center">
+      <img src="https://images.unsplash.com/photo-1584917865442-de89df76afd3?w=400&h=400&fit=crop" alt="bag" class="w-[85%] object-contain drop-shadow-xl group-hover:scale-105 transition duration-300">
+    </div>
+    <!-- sparkles deco -->
+    <div class="absolute top-20 right-6 text-white text-xl">✦</div>
+    <div class="absolute top-40 left-3 text-white text-lg">✦</div>
+  </div>
+
+  <!-- Card 2 - Kitchen -->
+  <div class="bg-[#3d6fa0] rounded-sm p-6 flex flex-col justify-between min-h-[380px] lg:min-h-[420px] group cursor-pointer hover:shadow-lg transition">
+    <h2 class="text-[26px] leading-[30px] font-extrabold text-black">Beautify <br>your Kitchen</h2>
+    <div class="mt-6">
+      <img src="https://images.unsplash.com/photo-1574269909862-7e1d70bb807d?w=500&h=350&fit=crop" alt="kitchen appliances" class="w-full h-[240px] object-contain group-hover:scale-105 transition duration-300">
+    </div>
+  </div>
+
+  <!-- Card 3 - Beauty -->
+  <div class="bg-[#fde8e9] rounded-sm p-6 flex flex-col justify-between min-h-[380px] lg:min-h-[420px] group cursor-pointer hover:shadow-lg transition relative overflow-hidden">
+    <h2 class="text-[26px] leading-[30px] font-extrabold text-black relative z-10">Create your<br> beauty</h2>
+    <div class="mt-4 relative">
+      <img src="https://images.unsplash.com/photo-1596462502278-27bfdc403348?w=500&h=350&fit=crop" alt="beauty" class="w-full h-[260px] object-cover rounded-xl group-hover:scale-105 transition duration-300">
+    </div>
+  </div>
+
+  <!-- Card 4 - Sharp / Fashion -->
+  <div class="bg-[#e9eef2] rounded-sm p-6 flex flex-col justify-between min-h-[380px] lg:min-h-[420px] group cursor-pointer hover:shadow-lg transition">
+    <h2 class="text-[26px] leading-[30px] font-extrabold text-black">Become a<br>STAR</h2>
+    <div class="mt-6">
+      <img src="https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?w=500&h=350&fit=crop" alt="clothes rack" class="w-full h-[240px] object-cover rounded-sm group-hover:scale-105 transition duration-300">
+    </div>
+  </div>
+
+</div>
+
+<!-- Extra: what you need -->
+<div class="max-w-[1500px] mx-auto mt-5 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 lg:gap-5">
+  <div class="bg-white p-5 rounded-sm shadow-sm">
+    <h3 class="font-bold text-[21px] mb-3">Top categories in car accessories</h3>
+    <div class="grid grid-cols-2 gap-3">
+      <div><div class="bg-gray-100 h-24 rounded"></div><p class="text-xs mt-1">Car care</p></div>
+      <div><div class="bg-gray-100 h-24 rounded"></div><p class="text-xs mt-1">Tyres</p></div>
+    </div>
+  </div>
+  <div class="bg-white p-5 rounded-sm shadow-sm">
+    <h3 class="font-bold text-[21px] mb-3">Phones & Laptops</h3>
+    <img src="https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?w=400" class="h-48 w-full object-cover">
+    <a href="#" class="text-[#007185] text-sm mt-3 inline-block">See all offers</a>
+  </div>
+  <div class="bg-white p-5 rounded-sm shadow-sm">
+    <h3 class="font-bold text-[21px] mb-3">Shoes & Perfumes</h3>
+    <img src="https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=400" class="h-48 w-full object-cover">
+    <a href="#" class="text-[#007185] text-sm mt-3 inline-block">See all offers</a>
+  </div>
+  <div class="bg-white p-5 rounded-sm shadow-sm">
+    <h3 class="font-bold text-[21px] mb-3">Groceries</h3>
+    <img src="https://images.unsplash.com/photo-1590874103328-eac38a683ce7?w=400" class="h-48 w-full object-cover">
+    <a href="#" class="text-[#007185] text-sm mt-3 inline-block">Shop now</a>
+  </div>
+</div>
+
+<!-- Featured products -->
+
+  <section>
+  <h2 class="text-2xl font-bold mb-6">Featured Products</h2>
+  
+
+  <div class="max-w-7xl mx-auto grid grid-cols-2 md:grid-cols-4 gap-4 md:gap-6">
+
+    <!-- CARD 1 -->
+    <div class="bg-white p-3 rounded-lg">
+      <div class="relative aspect-square bg-gray-50 rounded-md overflow-hidden">
+        <img src="images/New folder home/images.jfif" alt="Hisense" class="w-full h-full object-contain">
+        <button class="absolute top-2 right-2 w-8 h-8 bg-white rounded-full shadow flex items-center justify-center">
+          <svg class="w-5 h-5" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24"><path d="M12 21l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.18L12 21z"/></svg>
+        </button>
+      </div>
+      <button class="mt-3 px-4 py-1.5 border border-gray-800 rounded-full bg-red-300 text-sm font-semibold hover:bg-red-600">+ Add</button>
+      <div class="mt-3">
+        <p class="font-bold text-[22px] text-green-700 leading-none">Now 690,000</p>
+        <p class="mt-1 text-[14px] text-blue-700 line-clamp-2"> 310 litres refrigerator</p>
+      </div>
+    </div>
+
+    <!-- CARD 2 -->
+    <div class="bg-white p-3 rounded-lg">
+      <div class="relative aspect-square bg-gray-50 rounded-md overflow-hidden">
+        <img src="images/New folder home/lg 50 i.jfif" alt="LG SMART" class="w-full h-full object-cover">
+        <button class="absolute top-2 right-2 w-8 h-8 bg-white rounded-full shadow flex items-center justify-center">
+          <svg class="w-5 h-5" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24"><path d="M12 21l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.18L12 21z"/></svg>
+        </button>
+      </div>
+      <button class="mt-3 px-4 py-1.5 border border-gray-800 rounded-full bg-red-300 text-sm font-semibold hover:bg-red-600">+ Add</button>
+      <div class="mt-3">
+        <p class="font-bold text-green-700 text-[22px] leading-none">Now 321,000</p>
+        <p class="mt-1 text-[14px] text-blue-700 line-clamp-2">50 inch LG SMART TV UHD</p>
+      </div>
+    </div>
+
+    <!-- CARD 3 -->
+    <div class="bg-white p-3 rounded-lg">
+      <div class="relative aspect-square bg-gray-50 rounded-md overflow-hidden">
+        <img src="images/New folder home/gucci women.jfif" alt="gucci bag" class="w-full h-full object-contain">
+        <button class="absolute top-2 right-2 w-8 h-8 bg-white rounded-full flex items-center justify-center">
+          <svg class="w-5 h-5" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24"><path d="M12 21l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.18L12 21z"/></svg>
+        </button>
+      </div>
+      <button class="mt-3 px-4 py-1.5 border border-gray-800 rounded-full text-sm bg-red-300 font-semibold flex items-center gap-1 hover:bg-red-600">
+        <span class="text-xl leading-none font-light">+</span> Add
+      </button>
+      <div class="mt-3">
+        <p class="font-bold text-[22px] text-green-700 leading-none">Now 943,000</p>
+        <p class="mt-1 text-[14px] text-blue-700 line-clamp-2">Gucci female cross bag</p>
+      </div>
+    </div>
+
+    <!-- CARD 4 -->
+    <div class="bg-white p-3 rounded-lg">
+      <div class="relative aspect-square bg-gray-50 rounded-md overflow-hidden">
+        <img src="images/New folder home/ASUS rog 2025.webp" alt="ASUS" class="w-full h-full object-contain">
+        <button class="absolute top-2 right-2 w-8 h-8 bg-white rounded-full shadow flex items-center justify-center">
+          <svg class="w-5 h-5" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24"><path d="M12 21l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.18L12 21z"/></svg>
+        </button>
+      </div>
+      <button class="mt-3 px-4 py-1.5 border border-gray-800 rounded-full bg-red-300 text-sm font-semibold hover:bg-red-600">+ Add</button>
+      <div class="mt-3">
+        <p class="font-bold text-[22px] text-green-700 leading-none">Now 2,670,000</p>
+        <p class="mt-1 text-[14px] text-blue-700 line-clamp-2">ASUS ROG gaming laptop</p>
+      </div>
+    </div>
+
+  </div>
+
+  <body class="bg-[#f6f6] p-2 md:p-4 lg:p-6">
+  <!-- Top Nav Replica -->
+  <div class="max-w-[1600px] mx-auto bg-white rounded-xl overflow-hidden shadow-sm border">
+    <!-- Main Grid -->
+    <div class="grid grid-cols-1 lg:grid-cols-5 gap-2 md:gap-3 p-2 md:p-3 bg-[#f0f0f0]">
+
+      <!-- LEFT: iPhone 18 PRO -->
+      <div class="lg:col-span-2 bg-[#f9f5ef] rounded-lg p-6 md:p-10 flex flex-col justify-between min-h-[520px] lg:min-h-[700px] relative overflow-hidden">
+        <div>
+          <div class="flex items-center gap-1 justify-center lg:justify-start">
+            <span class="text-xl"></span>
+            <span class="font-semibold tracking-wide">iPhone 18</span>
+          </div>
+          <h1 class="text-[56px] md:text-[80px] font-black leading-none tracking-tighter text-center lg:text-left -mt-1">
+            PR<span class="inline-block bg-gradient-to-br from-[#b8a6b8] to-[#1a1a2e] bg-clip-text text-transparent">O</span>
+          </h1>
+        </div>
+
+        <div class="flex-1 flex items-center justify-center py-6">
+          <img src="images/New folder home/apple 18 pro.jfif" alt="iPhone 18 Pro" class="w-[280px] md:w-[340px] drop-shadow-2xl rounded-[40px] object-cover rotate-3 hover:rotate-0 transition duration-500" />
+        </div>
+
+        <div class="text-center">
+          <h3 class="text-2xl font-bold text-[#1d2a54]">Pro further.</h3>
+          <p class="text-[13px] text-gray-600 mt-2 max-w-[320px] mx-auto leading-snug">
+            Shop now and upgrade to get your new iPhone.
+          </p>
+          <button class="mt-5 bg-[#0096ff] hover:bg-[#007acc] text-white text-sm font-semibold px-6 py-2.5 rounded-sm transition">Available Now</button>
+        </div>
+      </div>
+
+      <!-- RIGHT -->
+      <div class="lg:col-span-3 flex flex-col gap-2 md:gap-3">
+        <!-- Apple Watch -->
+        <div class="bg-[#0f172a] rounded-lg p-6 md:p-8 flex flex-col md:flex-row justify-between items-center relative overflow-hidden min-h-[320px]">
+          <div class="z-10 max-w-[320px]">
+            <h2 class="text-white font-bold text-xl tracking-wide">APPLE WATCH <span class="font-light tracking-widest">SERIES 12</span></h2>
+            <h3 class="text-white font-bold text-lg mt-4">A work of heart.</h3>
+            <p class="text-gray-300 text-[13px] mt-2 leading-snug">stay up to date with the current Apple Watch series 12</p>
+            <button class="mt-5 bg-white text-[#0f172a] text-xs font-semibold px-5 py-2 rounded-sm">Shop Now</button>
+          </div>
+          <div class="flex gap-3 mt-6 md:mt-0 z-10">
+            <div class="w-[130px] md:w-[160px] aspect-[4/5] bg-black rounded-[32px] border-[6px] border-[#1e293b] p-2 flex flex-col items-center justify-center">
+              <div class="w-full h-full bg-gradient-to-b from-red-600 to-red-900 rounded-[20px] flex flex-col items-center justify-center text-white">
+                <span class="text-[10px]">10:09</span>
+                <span class="text-2xl font-bold"></span>
+                <span class="text-3xl font-bold">AM</span>
+              </div>
+            </div>
+            <div class="w-[100px] md:w-[120px] aspect-[4/5] bg-[#d6c7b8] rounded-[28px] border-[5px] border-[#1e293b] hidden md:flex items-center justify-center">
+              <!-- <div class="w-16 h-16 rounded-full border-4 border-green-500 border-t-green-300 animate-spin"></div> -->
+               <img src="images/New folder home/series 12.jfif" alt="series-12">
+            </div>
+          </div>
+        </div>
+
+        <!-- Bottom Two -->
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-2 md:gap-7 flex-1">
+          <!-- PC Gaming -->
+          <div class="bg-[#1e40af] rounded-lg p-6 flex flex-col justify-between min-h-[280px] text-center">
+            <div>
+              <h2 class="text-white font-black text-2xl leading-none">Ultimate<br/><span class="text-[#ffeb3b]">PC Gaming Sale</span></h2>
+              <p class="text-white/80 text-[10px] mt-2 tracking-wide">Sponsored by <span class="font-bold text-white text-sm italic">ASUS</span> <span class="font-bold">ROG</span></p>
+            </div>
+            <div>
+              <img src="images/New folder home/asus game.webp" alt="asusgaming">
+            </div>
+            <div>
+              <p class="text-white text-xs font-semibold leading-snug">Get amazing deals on gaming hardware, accessories, and more.</p>
+              <button class="mt-4 bg-white text-[#1e40af] text-xs font-semibold px-5 py-2 rounded-sm">Shop Now</button>
+            </div>
+          </div>
+
+          <!-- Top Deals -->
+          <div class="bg-[#00a8e8] rounded-lg p-6 flex flex-col justify-between min-h-[280px] text-center">
+            <div>
+              <h2 class="font-black leading-none"><span class="text-[#0f172a] block text-3xl font-light tracking-widest">TOP</span><span class="text-[#ffeb3b] text-[42px] -mt-1 block">DEALS</span></h2>
+            </div>
+            <div>
+              <img src="images/New folder home/WhatsApp Image.jpeg" alt="deals">
+            </div>
+            <div>
+              <p class="text-white text-xs font-medium leading-snug">Find the hottest offers of the week, all in one place.</p>
+              <button class="mt-4 bg-white text-[#00a8e8] text-xs font-semibold px-5 py-2 rounded-sm">Shop Now</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  </section>
+  <!-- Today's Deals Section -->
+  <div class="max-w-[1600px] mx-auto">
+    <div class="flex items-baseline gap-2 mb-4">
+      <h2 class="text-[26px] font-bold text-black">Today's Deals</h2>
+      <span class="text-[14px] text-gray-600">Order Now</span>
+      <a href="#" class="ml-auto text-[14px] underline hidden md:block">See all</a>
+    </div>
+
+    <div class="flex gap-4 overflow-x-auto pb-4">
+
+      <!-- CARD 1 - iPad -->
+      <div class="min-w-[180px] max-w-[180px] snap-start">
+        <div class="relative bg-[#f7f7f7] rounded-lg aspect-square p-2 flex items-center justify-center">
+          <img src="images/New folder home/apple air-11.webp" alt="iPad" class="max-h-full max-w-full object-contain">
+          <button class="absolute top-2 right-2 w-7 h-7 bg-white rounded-full shadow flex items-center justify-center">
+            <svg class="w-4 h-4" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M12 21l-1.4-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.18L12 21z"/></svg>
+          </button>
+        </div>
+        <p class="mt-2 text-[13px] leading-tight line-clamp-2 text-blue-700">Apple iPad 11 A16 (2025) 11" 128GB / 256GB / 512GB WiFi or Cellular...</p>
+        <p class="mt-1 font-bold text-[16px] text-green-700">Now 480,000</p>
+      </div>
+       <!-- CARD 2 - Switch -->
+      <div class="min-w-[180px] max-w-[180px] snap-start">
+        <div class="relative bg-[#f7f7f7] rounded-lg aspect-square p-2 flex items-center justify-center">
+          <img src="images/New folder home/nintendo switch.webp" alt="Nintendo Switch" class="max-h-full max-w-full object-contain">
+          <button class="absolute top-2 right-2 w-7 h-7 bg-white rounded-full shadow flex items-center justify-center">
+            <svg class="w-4 h-4" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M12 21l-1.4-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.18L12 21z"/></svg>
+          </button>
+        </div>
+        <p class="mt-2 text-[13px] leading-tight line-clamp-2 text-blue-700">Nintendo Switch Gaming Console 32GB + 1 Year Warranty...</p>
+        <p class="mt-1"><span class="font-bold text-[16px] text-green-700">Now 1,230,000</span> </p>
+      </div>
+    
+     <!-- CARD 4 - Samsung -->
+      <div class="min-w-[180px] max-w-[180px] snap-start">
+        <div class="relative bg-[#f7f7f7] rounded-lg aspect-square p-2 flex items-center justify-center">
+          <img src="images/New folder home/samsung.webp" alt="Samsung S25" class="max-h-full max-w-full object-contain">
+          <button class="absolute top-2 right-2 w-7 h-7 bg-white rounded-full shadow flex items-center justify-center">
+            <svg class="w-4 h-4" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M12 21l-1.4-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.18L12 21z"/></svg>
+          </button>
+        </div>
+        <p class="mt-2 text-[13px] text-blue-600 leading-tight line-clamp-2">Samsung Galaxy S25+ 256GB SV936U - Excellent</p>
+        <p class="mt-1"><span class="font-bold text-[16px] text-green-700">Now 560,000</span> </p>
+        </div>
+
+      <!-- CARD 5 -->
+       <div class="min-w-[180px] max-w-[180px] snap-start">
+        <div class="relative bg-[#f7f7f7] rounded-lg aspect-square p-2 flex items-center justify-center">
+          <img src="images/New folder home/givenchy nectar.jfif" alt="givenchy" class="max-h-full max-w-full object-contain">
+          <button class="absolute top-2 right-2 w-7 h-7 bg-white rounded-full shadow flex items-center justify-center">
+            <svg class="w-4 h-4" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M12 21l-1.4-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.18L12 21z"/></svg>
+          </button>
+        </div>
+        <p class="mt-2 text-[13px] text-blue-600 leading-tight line-clamp-2">Givenchy Nectar EDP perfume 80ml</p>
+        <p class="mt-1"><span class="font-bold text-[16px] text-green-700">Now 269,000</span> </p>
+        </div>
+      
+      <!-- CARD 6 -->
+       <div class="min-w-[180px] max-w-[180px] snap-start">
+        <div class="relative bg-[#f7f7f7] rounded-lg aspect-square p-2 flex items-center justify-center">
+          <img src="images/New folder home/cadbury bar.jfif" alt="cadbury-bar" class="max-h-full max-w-full object-contain">
+          <button class="absolute top-2 right-2 w-7 h-7 bg-white rounded-full shadow flex items-center justify-center">
+            <svg class="w-4 h-4" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M12 21l-1.4-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.18L12 21z"/></svg>
+          </button>
+        </div>
+        <p class="mt-2 text-[13px] text-blue-600 leading-tight line-clamp-2">Cadbury Diary Milk Chocolate Bar</p>
+        <p class="mt-1"><span class="font-bold text-[16px] text-green-700">Now 1207</span> </p>
+      </div>
+      <!-- CARD 7 -->
+       <div class="min-w-[180px] max-w-[180px] snap-start">
+        <div class="relative bg-[#f7f7f7] rounded-lg aspect-square p-2 flex items-center justify-center">
+          <img src="images/New folder home/silver air fryer.webp" alt="silver air fryer" class="max-h-full max-w-full object-contain">
+          <button class="absolute top-2 right-2 w-7 h-7 bg-white rounded-full shadow flex items-center justify-center">
+            <svg class="w-4 h-4" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M12 21l-1.4-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.18L12 21z"/></svg>
+          </button>
+        </div>
+        <p class="mt-2 text-[13px] text-blue-600 leading-tight line-clamp-2">Silver Crest Digital Air Fryer 8L - Black</p>
+        <p class="mt-1"><span class="font-bold text-[16px] text-green-700">Now 31800</span> </p>
+    </div>
+    <!-- CARD 8 -->
+     <div class="min-w-[180px] max-w-[180px] snap-start">
+        <div class="relative bg-[#f7f7f7] rounded-lg aspect-square p-2 flex items-center justify-center">
+          <img src="images/New folder home/fenty foundation.jfif" alt="Fenty" class="max-h-full max-w-full object-contain">
+          <button class="absolute top-2 right-2 w-7 h-7 bg-white rounded-full shadow flex items-center justify-center">
+            <svg class="w-4 h-4" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M12 21l-1.4-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.18L12 21z"/></svg>
+          </button>
+        </div>
+        <p class="mt-2 text-[13px] text-blue-600 leading-tight line-clamp-2">Fenty Foundation Mild Dark Gray</p>
+        <p class="mt-1"><span class="font-bold text-[16px] text-green-700">Now 90130</span> </p>
+    </div>
+    </div>
+    
+     <section class="max-w-7xl mx-auto px-4 py-10">
+    
+    <!-- Header -->
+    <div class="flex items-start justify-between mb-8">
+      <h2 class="text-3xl md:text-5xl font-bold text-gray-900 leading-tight max-w-md">
+        Plug in with our electronics
+      </h2>
+
+      <button class="flex items-center justify-center w-12 h-12 rounded-full border border-gray-300 hover:bg-gray-100 transition">
+        <svg xmlns="http://www.w3.org/2000/svg"
+             class="w-6 h-6"
+             fill="none"
+             viewBox="0 0 24 24"
+             stroke="currentColor">
+          <path stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M9 5l7 7-7 7" />
+        </svg>
+      </button>
+    </div>
+
+    <!-- Cards Grid -->
+    <div class="grid grid-cols-2 lg:grid-cols-4 gap-5">
+
+      <!-- Headphones -->
+      <div class="group cursor-pointer">
+        <div class="bg-gradient-to-br from-pink-100 to-purple-100 rounded-2xl overflow-hidden aspect-square p-6 flex items-center justify-center hover:shadow-lg">
+        <img src="images/New folder home/shopping headsets.webp" alt="sony">
+        </div>
+        <h3 class="mt-3 text-xl font-medium text-gray-900">
+          Headphones
+        </h3>
+      </div>
+
+      <!-- Tablets -->
+      <div class="group cursor-pointer">
+        <div class="bg-gradient-to-br from-purple-100 to-pink-100 rounded-2xl overflow-hidden aspect-square p-6 flex items-center justify-center hover:shadow-lg">
+          <img src="images/New folder home/xiaomi tab.webp" alt="Tablets">
+        </div>
+        <h3 class="mt-3 text-xl font-medium text-gray-900">
+          Tablets
+        </h3>
+      </div>
+
+      <!-- Gaming -->
+      <div class="group cursor-pointer">
+        <div class="bg-gradient-to-br from-blue-100 to-pink-100 rounded-2xl overflow-hidden aspect-square p-6 flex items-center justify-center hover:shadow-lg">
+          <img src="images/New folder home/plays 5.jfif" alt="ps5">
+        </div>
+        <h3 class="mt-3 text-xl font-medium text-gray-900">
+          Gaming
+        </h3>
+      </div>
+
+      <!-- Speakers -->
+      <div class="group cursor-pointer">
+        <div class="bg-gradient-to-br from-pink-100 to-purple-100 rounded-2xl overflow-hidden aspect-square p-6 flex items-center justify-center hover:shadow-lg">
+          <img src="images/New folder home/zealot home.jfif" alt="zealot">
+        </div>
+        <h3 class="mt-3 text-xl font-medium text-gray-900">
+          Speakers
+        </h3>
+      </div>
+
+    </div>
+
+  </section> 
+
+
+  <div class="flex-1 flex items-center justify-center bg-[#fdfbf7] py-16">
+    <button class="bg-[#f8a81e] hover:bg-[#e69916] text-white font-medium text-[14px] px-14 py-3 rounded-full flex items-center gap-1 shadow-sm">
+      See more
+      <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/></svg>
+    </button>
+  </div>
+  
+
+<!-- FOOTER NEWSLETTER SECTION -->
+<footer class="w-full">
+  <!-- Top Dark Section -->
+  <div class="bg-[#2e2e2e] md:bg-[#313133] text-white">
+    <div class="max-w-[1184px] mx-auto px-4 md:px-6 py-8 md:py-6">
+      <div class="grid grid-cols-1 lg:grid-cols-12 gap-8">
+
+        <!-- Left: Newsletter -->
+        <div class="lg:col-span-7">
+          <h3 class="font-bold text-[15px] tracking-wide uppercase mb-2">get updates from </h3>
+          <p class="text-[13px] text-gray-300 leading-snug max-w-[600px]">
+            You can subscribe to our newsletter to get updates on our latest offers, deals and marketing campaigns.
+          </p>
+          <p class="text-[13px] text-gray-300 mt-3 leading-snug">
+            To subscribe to our newsletter, you must first read and agree to SuperShop
+            <a href="#" class="text-[#f68b1e] hover:underline">Privacy Policy</a> and
+            <a href="#" class="text-[#f68b1e] hover:underline">Cookie Notice</a>
+          </p>
+
+          <!-- Input + Button -->
+          <div class="flex flex-col sm:flex-row gap-3 mt-5 max-w-[520px]">
+            <div class="relative flex-1">
+              <span class="absolute left-3 top-1/2 -translate-y-1/2 text-gray-400">
+                <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24"><path d="M20 4H4c-1.1 0-2.9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/></svg>
+              </span>
+              <input type="email" placeholder="Enter E-mail Address"
+                class="w-full h-[44px] pl-10 pr-4 rounded bg-white text-gray-800 text-[14px] placeholder:text-gray-500 focus:outline-none focus:ring-2 focus:ring-[#f68b1e]" />
+            </div>
+            <button class="h-[44px] px-8 rounded border border-white text-white font-semibold text-[13px] uppercase tracking-wide hover:bg-white hover:text-[#313133] transition">Subscribe</button>
+          </div>
+
+          <p class="text-[11px] text-gray-400 mt-4 max-w-[520px] leading-snug">
+            You can withdraw your consent at any time by clicking the Unsubscribe Link at the bottom of any email we send you
+          </p>
+        </div>
+
+        <!-- Right: App Download -->
+        <div class="lg:col-span-5 lg:flex lg:justify-end">
+          <div class="flex gap-4 items-start">
+            <!-- <div class="w-[48px] h-[48px] bg-[#f68b1e] rounded-lg flex items-center justify-center flex-shrink-0">
+              <div class="w-8 h-8 bg-white rounded-full flex items-center justify-center">
+                <svg class="w-5 h-5 text-[#f68b1e]" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+              </div>
+            </div> -->
+            <div>
+              <h3 class="font-bold text-[15px] uppercase leading-tight">Download SuperShop Free App</h3>
+              <p class="text-[13px] text-gray-300 mt-1">Get access to exclusive offers!</p>
+              <div class="flex flex-wrap gap-3 mt-4">
+                <a href="#" class="flex items-center gap-2 bg-black border border-gray-600 rounded px-3 py-1.5 hover:bg-[#111]">
+                  <span class="text-xl"></span>
+                  <span class="leading-none text-left">
+                    <span class="block text-[8px]">Download on the</span>
+                    <span class="block text-[14px] font-semibold -mt-0.5">App Store</span>
+                  </span>
+                </a>
+                <a href="#" class="flex items-center gap-2 bg-black border border-gray-600 rounded px-3 py-1.5 hover:bg-[#111]">
+                  <span class="text-lg">▶</span>
+                  <span class="leading-none text-left">
+                    <span class="block text-[8px]">GET IT ON</span>
+                    <span class="block text-[14px] font-semibold -mt-0.5">Google Play</span>
+                  </span>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <!-- Bottom Links Section -->
+  <div class="bg-[#323232] text-gray-300">
+    <div class="max-w-[1154px] mx-auto px-4 md:px-6 py-8">
+      <div class="grid grid-cols-2 md:grid-cols-5 gap-6">
+
+        <div>
+          <h4 class="text-white font-bold text-[12px] uppercase mb-4">About SuperShop</h4>
+          <ul class="space-y-1.5 text-[12px]">
+            <li><a href="#" class="hover:text-white hover:underline">About us</a></li>
+            <li><a href="#" class="hover:text-white hover:underline">SuperShop careers</a></li>
+            <li><a href="#" class="hover:text-white hover:underline">Corporate Website</a></li>
+            <li><a href="#" class="hover:text-white hover:underline">Terms and Conditions</a></li>
+            <li><a href="#" class="hover:text-white hover:underline">SuperShop Payment Information Guidelines</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h4 class="text-white font-bold text-[12px] uppercase mb-4">Make Money With SuperShop</h4>
+          <ul class="space-y-1.5 text-[12px]">
+            <li><a href="#" class="hover:text-white hover:underline">Sell on SuperShop</a></li>
+            <li><a href="#" class="hover:text-white hover:underline">Vendor hub</a></li>
+            <li><a href="#" class="hover:text-white hover:underline">Become a Sales Consultant</a></li>
+            <li><a href="#" class="hover:text-white hover:underline">Affliates</a></li>
+            <li><a href="#" class="hover:text-white hover:underline">How to sell</a></li>
+          </ul>
+        </div>
+
+        <div class="col-span-2 md:col-span-2">
+          <h4 class="text-white font-bold text-[12px] uppercase mb-4">SuperShop International</h4>
+          <div class="grid grid-cols-2 max-w-[240px] gap-y-1.5 text-[12px]">
+            <a href="#" class="hover:text-white hover:underline">Egypt</a>
+            <a href="#" class="hover:text-white hover:underline">Morocco</a>
+            <a href="#" class="hover:text-white hover:underline">Ghana</a>
+            <a href="#" class="hover:text-white hover:underline">Senegal</a>
+            <a href="#" class="hover:text-white hover:underline">Ivory Coast</a>
+            <a href="#" class="hover:text-white hover:underline">Uganda</a>
+            <a href="#" class="hover:text-white hover:underline">Kenya</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>
+  <footer class="bg-white border-t mt-12">
+    <div class="container mx-auto px-4 py-6 text-center text-sm text-gray-500">© 2026 ShopHub. All rights reserved.</div>
+  </footer>
+
+  <script>
+    const products = [
+      {id:1, name:"iPhone 15 Pro", price:1200, cat:"phones", img:"https://via.placeholder.com/300"},
+      {id:2, name:"MacBook Air M4", price:1500, cat:"laptops", img:"https://via.placeholder.com/300"},
+      {id:3, name:"Nike Air force", price:180, cat:"shoes", img:"images/featured/15 pro.webp"},
+      {id:4, name:"Gucci Perfume", price:220, cat:"perfumes", img:"https://via.placeholder.com/300"},
+      {id:5, name:"Tesla Model 3", price:40000, cat:"cars", img:"https://via.placeholder.com/300"},
+      {id:6, name:"adidas Bag", price:350, cat:"bags", img:"images/featured/adidas pack-1.avif"},
+    ]
+    const featured = document.getElementById('featured')
+    products.slice(0,4).forEach(p => {
+      featured.innerHTML += `
+        <div class="bg-white rounded-lg shadow p-4">
+          <img src="${p.img}" class="w-full h-40 object-cover rounded mb-3">
+          <h3 class="font-semibold">${p.name}</h3>
+          <p class="text-indigo-600 font-bold">$${p.price}</p>
+          <a href="product.html?id=${p.id}" class="mt-2 inline-block bg-indigo-600 text-white px-4 py-2 rounded hover:bg-indigo-700">View</a>
+        </div>`
+    })
+    document.getElementById('cartCount').innerText = JSON.parse(localStorage.getItem('cart')||'[]').length
+  </script>
+</body>
+</html>

@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Category - SuperShop</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-50">
+  <header class="bg-white shadow sticky top-0">
+    <div class="container mx-auto px-4 py-4 flex justify-between">
+      <a href="index.html" class="text-2xl font-bold text-indigo-600">SuperShop</a>
+      <a href="cart.html">Cart</a>
+    </div>
+  </header>
+
+  <div class="container mx-auto px-4 py-8">
+    <h1 id="catTitle" class="text-3xl font-bold mb-6">All Products</h1>
+    <div id="productGrid" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6"></div>
+  </div>
+  <div><section class="max-w-[1280px] mx-auto px-3 md:px-4 mt-4">
+    <div class="bg-white rounded-lg shadow-sm overflow-hidden">
+
+      <!-- Section Header -->
+      <div class="px-4 md:px-6 py-4 border-b border-gray-100 flex items-center justify-between">
+        <h2 class="text-[22px] md:text-[28px] font-bold">
+          <span class="text-[#313133]">Computing</span>
+          <span class="text-[#6a5fd8]"> Deals</span>
+        </h2>
+        <a href="#" class="text-[13px] font-semibold text-[#264996] hover:underline">SEE ALL →</a>
+      </div>
+
+      <!-- Products Grid -->
+      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 divide-y sm:divide-y-0 sm:divide-x divide-gray-100">
+
+        <!-- Product 1 -->
+        <div class="group p-4 hover:shadow-[0_4px_20px_rgba(0,0,0,0.08)] transition-all cursor-pointer bg-[#fdfbf6]">
+          <div class="h-[200px] flex items-center justify-center relative">
+            <span class="absolute top-0 left-0 bg-[#f68b1e]/10 text-[#f68b1e] text-[11px] font-bold px-2 py-1 rounded">OFFICIAL STORE</span>
+            <img src="https://images.unsplash.com/photo-1588872657576-7efd1f1555ed?w=400&q=80" alt="Vivobook 15" class="h-[160px] object-contain group-hover:scale-105 transition duration-300" />
+          </div>
+          <div class="mt-3">
+            <h3 class="text-[14px] text-[#313133] leading-[18px] line-clamp-2 h-[36px]">Asus Vivobook 15-Intel Core i5-12500H-8GB RA...</h3>
+            <div class="mt-2">
+              <p class="text-[18px] font-bold text-[#313133]">₦ 710,900</p>
+              <div class="flex items-center gap-2 mt-1">
+                <p class="text-[12px] text-gray-400 line-through">₦ 790,298</p>
+                <span class="bg-[#22c3a6] text-white text-[11px] font-bold px-2 py-0.5 rounded">-10%</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Product 2 -->
+        <div class="group p-4 hover:shadow-[0_4px_20px_rgba(0,0,0,0.08)] transition-all cursor-pointer bg-[#fdfbf6]">
+          <div class="h-[200px] flex flex-col items-center justify-center relative">
+            <p class="font-black text-[16px] tracking-widest mb-2">2PCS/SET</p>
+            <div class="flex items-center justify-center gap-2">
+              <img src="https://images.unsplash.com/photo-1625842268584-8f3296236761?w=200&q=80" alt="USB Adapter" class="h-[80px] object-contain -rotate-12" />
+              <img src="https://images.unsplash.com/photo-1625842268584-8f3296236761?w=200&q=80" alt="USB C Adapter" class="h-[90px] object-contain rotate-12" />
+            </div>
+          </div>
+          <div class="mt-3">
+            <h3 class="text-[14px] text-[#313133] leading-[18px] line-clamp-2 h-[36px]">USB To USB C Adapter&Type C Male T...</h3>
+            <div class="flex items-center gap-1 mt-1">
+              <span class="text-[#f6b01e] text-[13px]">★</span>
+              <span class="text-[12px] font-medium text-gray-600">4.6</span>
+              <span class="text-[12px] text-gray-400">(182)</span>
+            </div>
+            <div class="mt-1">
+              <p class="text-[18px] font-bold text-[#313133]">₦ 4,438</p>
+              <div class="flex items-center gap-2 mt-1">
+                <p class="text-[12px] text-gray-400 line-through">₦ 9,090</p>
+                <span class="bg-[#22c3a6] text-white text-[11px] font-bold px-2 py-0.5 rounded">-51%</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Product 3 -->
+        <div class="group p-4 hover:shadow-[0_4px_20px_rgba(0,0,0,0.08)] transition-all cursor-pointer bg-[#fdfbf6]">
+          <div class="h-[200px] flex items-center justify-center relative">
+            <img src="https://images.unsplash.com/photo-1588872657576-7efd1f1555ed?w=400&q=80" alt="Vivobook S14" class="h-[150px] object-contain group-hover:scale-105 transition duration-300" />
+          </div>
+          <div class="mt-3">
+            <h3 class="text-[14px] text-[#313133] leading-[18px] line-clamp-2 h-[36px]">Asus Vivobook S14 Intel Ultra 7-256V/16GB...</h3>
+            <div class="mt-2">
+              <p class="text-[18px] font-bold text-[#313133]">₦ 1,276,300</p>
+              <div class="flex items-center gap-2 mt-1">
+                <p class="text-[12px] text-gray-400 line-through">₦ 1,429,714</p>
+                <span class="bg-[#22c3a6] text-white text-[11px] font-bold px-2 py-0.5 rounded">-11%</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Mobile bottom padding -->
+  <div class="h-10"></div>
+
+    
+  </div>
+
+  <script>
+    const products = [/* same array as above */]
+    const params = new URLSearchParams(window.location.search)
+    const cat = params.get('cat')
+    const filtered = cat ? products.filter(p => p.cat === cat) : products
+    document.getElementById('catTitle').innerText = cat ? cat.charAt(0).toUpperCase() + cat.slice(1) : 'All Products'
+    
+    const grid = document.getElementById('productGrid')
+    filtered.forEach(p => {
+      grid.innerHTML += `
+        <div class="bg-white rounded-lg shadow p-4">
+          <img src="${p.img}" class="w-full h-48 object-cover rounded mb-3">
+          <h3 class="font-semibold">${p.name}</h3>
+          <p class="text-indigo-600 font-bold">$${p.price}</p>
+          <a href="product.html?id=${p.id}" class="mt-2 inline-block bg-indigo-600 text-white px-4 py-2 rounded">View Details</a>
+        </div>`
+    })
+  </script>
+</body>
+</html>

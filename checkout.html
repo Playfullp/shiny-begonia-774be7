@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Checkout - SuperShop</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-50">
+  <header class="bg-white shadow"><div class="container mx-auto px-4 py-4"><a href="index.html" class="text-2xl font-bold text-indigo-600">ShopHub</a></div></header>
+  
+  <div class="container mx-auto px-4 py-8 max-w-2xl">
+    <div id="form">
+      <h1 class="text-3xl font-bold mb-6">Checkout</h1>
+      <input placeholder="Full Name" class="w-full border p-3 rounded mb-3">
+      <input placeholder="Address" class="w-full border p-3 rounded mb-3">
+      <input placeholder="Card Number" class="w-full border p-3 rounded mb-3">
+      <button onclick="confirmOrder()" class="w-full bg-indigo-600 text-white py-3 rounded-lg">Place Order</button>
+    </div>
+    <div id="confirmation" class="hidden bg-white p-6 rounded-lg shadow text-center">
+      <h2 class="text-2xl font-bold text-green-600 mb-2">Order Confirmed!</h2>
+      <p>Thank you for shopping with SuperShop. We'll email you the details.</p>
+      <a href="index.html" class="mt-4 inline-block bg-indigo-600 text-white px-6 py-3 rounded">Continue Shopping</a>
+    </div>
+  </div>
+
+  <script>
+    function confirmOrder(){
+      localStorage.removeItem('cart')
+      document.getElementById('form').classList.add('hidden')
+      document.getElementById('confirmation').classList.remove('hidden')
+    }
+  </script>
+</body>
+</html>
